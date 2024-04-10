@@ -12,4 +12,11 @@ public class TestController {
     {
         return "hello jenkins" ;
     }
+
+    @GetMapping("/hello2")
+    public  String      testHello2()
+    {
+        return "hello jenkins 22222222222" ;
+    }
+
 }
